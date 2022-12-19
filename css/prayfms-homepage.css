@@ -1,0 +1,237 @@
+/*Обнуление*/
+/*Скинуты отступы и установлен размер бокса*/
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* убрано декорирование ссылок*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* убраны маркеры списка*/
+ul,
+ol,
+li{
+    list-style: none;
+}
+/*выравнивание изображения по верху*/
+img{
+    vertical-align: top;
+}
+/*заголовки принимают общий дизайн*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    background-color: #4B749D;
+    color: #fff;
+    height: 100%;
+    line-height: 1;
+}
+._container{
+    max-width: 1240px;
+    margin: 0px auto;/*выстраиваем контент посередине*/
+    box-sizing: content-box;
+}
+/*-------------------------------------------------*/
+.wraper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/*----HEADER------*/
+.header{
+    position: fixed;
+    background-color: #4B749D;
+    z-index: 20;
+    width: 100%;
+    height: 126px;
+
+}
+.header__menu{
+    width: 1054.34px;
+    height: 88.56px;
+}
+.__menu{
+    padding: 42px 0;
+    font-weight: 400;
+    line-height: 22px;
+}
+.menu__item{
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 0px 0px 42px;
+
+}
+.menu__home{
+    color: #036;
+}
+.menu__link{}
+.menu__basket{
+    margin-left: 594px;
+}
+.menu__border{
+    border:3px solid #036;
+    background-color: #036;
+    border-radius: 5px;
+}
+/*------MAIN-LOGO-------*/
+.main__logo{
+    width: 1240px;
+height: 590px;
+background: url(../img/background-homepage.png);
+padding-top: 126px;
+}
+.main__text{
+    height: 288px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin: 88px 402px;
+}
+.main__info{
+    background-color: #036;
+    width: 1240px;
+    height: 470px;
+}
+.main__infotext{
+    position: relative;
+    padding: 182.5px 0px 0px 108.07px;
+    height: 105px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.izbr_button{
+    position: fixed;
+    padding-left: 1155px;
+    z-index: 2;
+}
+/*------KATALOG--------*/
+.katalog{
+    padding-top: 60.84px;
+}
+.katalog__line{
+    width: 1240px;
+    height: 505.91px;
+    display: inline-flex
+}
+.katalog__kard{
+    width: 400px;
+height: 505.91px;
+margin-bottom: 89.36px;
+}
+.katalog__kard:not(:last-child){
+    margin-right: 20px;
+}
+.kard__photo{
+    width: 400px;
+    height: 400px;
+}
+.kard__item{ 
+    text-align: center;
+    height: 35px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 27.56px;
+    padding-left: auto;
+    color: #fff;
+}
+.kard__price{
+    padding-top: 31.36px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #003366;
+}
+.kard__heart{
+}
+/*----FOOTER-----*/
+.footer{
+    width: 1239.98px;
+    height: 424.06px;
+    padding-top: 209px;
+}
+.footer_container{
+    height: 192px;
+}
+.footer__logo{
+    width: 291px;
+    height: 192px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.footer__text{
+    height: 57.61px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-left: 743.57px;
+    margin-top: -180px;
+}
+.footer__contacts{
+    display: inline-flex;
+    margin-left: 743.57px;
+    margin-top: 32.52px;
+}
+.footer__contacts_inst{
+    width: 85px;
+    height: 85px;
+    padding-right: 121px;
+}
+.footer__contacts_tg{
+    width: 85px;
+    height: 85px;
+    padding-right: 121px;
+}
+.footer__contacts_w-app{
+    width: 85px;
+    height: 85px;
+    margin-top: -5px;
+}
+.footer__border{
+    border: 3px solid #036;
+    border-radius: 5px;
+    background: #036;
+    margin-top: 117px;
+}
+.footer__ps{
+    display: inline-flex;
+    font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #003366;
+padding-top: 27px;
+}
+.footer__ps_name{
+    padding-right: 611px;
+}
+.footer__ps_text{}

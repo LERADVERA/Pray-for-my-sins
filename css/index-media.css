@@ -1,0 +1,12 @@
+@media (max-width: 1200px ) {
+
+  body{
+    font-size: 15px;
+  }
+  .bag{
+    background-color: rgba(1,1,1,0);
+    border: none;
+    margin-left: 9.58%;
+  }
+
+}
